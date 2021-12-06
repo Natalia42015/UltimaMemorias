@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Enlaceres de estilo de la pagina-->
+    <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Enlaceres de estilo bootstrap-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/css/mdb.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
+       <!-- Enlaceres de estilo forma local-->
+    <link rel="stylesheet" href="css2/estilo2.css">
+
+    <title>Ultimas Memorias</title>
+</head>
+
+<body>
+<!--Formulario de login -->
+    <form method="POST" action="../PHP/iniciarsesion.php" class="needs-validation">
+        <div class="container">
+            <div class="row">
+                <h1><i class="fa fa-lock" aria-hidden="true"></i> Inicia sesion! </h1>
+
+            </div><br /><br />
+        <!--Nombre -->
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-user-tie"></i></span>
+                </div>
+                <input type="text" name="username" class="form-control" placeholder="Nombre de usuario o correo electronico" required/>
+            </div><br />
+
+        <!--Contraseña-->
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-key icon"></i></span>
+                </div>
+                <input type="Password" name="password" class="form-control" placeholder="Contraseña" required/>
+            </div><br />
+            <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-off"></span> iniciar sesion!</button>
+
+            <br />
+            <center>
+                <div style="border:1px solid black;height:1px;width:300px;"></div>
+            </center><br />
+            <div class="footer">
+                <p>Al iniciar sesion <a href="#">aceptas nuestros terminos y condiciones</a></p>
+            </div>
+
+        </div>
+
+    </form>
+    <!--Enlaces de jquery y bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+     <!--Enlaces de javacript de forma local -->
+    <script src="js2/funciones2.js"></script>
+</body>
+
+</html>

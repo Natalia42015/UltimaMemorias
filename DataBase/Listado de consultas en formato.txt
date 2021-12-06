@@ -1,0 +1,6 @@
+Miro las bases de datos que tengo.
+Uso la base de datos que tengo.
+Consulto que tablas tengo en la base de datos ultimas_memorias.
+Consulto la columna clientes.
+Y inserto los datos por si va.
+Y consulto la tabla clientes haber si inserto los datos correspondiente.

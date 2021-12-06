@@ -1,0 +1,39 @@
+
+/*X Estilo de la pagina privacidad.html X*/
+
+h1,h2,h3{
+    text-align:center;
+    margin-top: 3%;
+}
+
+p{ 
+    text-align: justify;
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/*X Fin del estilo de privacidad.html X*/
+
+/*X Estilo de la pagina login.html y register.html X*/
+.container{
+  border:2px solid black;
+  text-align:center;
+  
+  height:auto;
+  width:400px;
+}
+body{
+  padding:70px;
+}
+h1{
+  margin:auto;
+}
+.row{
+  height:90px;
+  width:396px;
+  background-color: gray;
+}
+/*X Fin del pagina login.html y register.htnl X*/
+

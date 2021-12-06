@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title>How to add Datepicker in Bootstrap</title>
+        
+        <!-- jQuery -->
+        <script src="jquery-3.1.1.min.js" type='text/javascript'></script>
+
+        <!-- Bootstrap -->
+        <link href='bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <script src='bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+
+        <!-- Datepicker -->
+        <link href='bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css' rel='stylesheet' type='text/css'>
+        <script src='bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js' type='text/javascript'></script>
+
+       </head>  
+    <body>
+
+        <div class='container' style='margin-top: 100px;'>
+            <input type='text' class="form-control" id='datepicker' placeholder='Select date' style='width: 300px;' >
+            <br/><br/>
+            <input type='button' id='show' value='show'>
+            <input type='button' id='setstartdate' value='Set Start Date'>
+            <input type='button' id='getstartdate' value='Get Start Date'>
+            <input type='button' id='setenddate' value='Set End Date'>
+            <input type='button' id='getenddate' value='Get End Date'>
+            <br/><br/>
+            <div id='response'></div>
+        </div>
+
+        <!-- Script -->
+        <script type="text/javascript">
+        $(document).ready(function(){
+           // Initialize
+           $('#datepicker').datepicker();   
+
+           // show
+           $('#show').click(function(){
+               $('#datepicker').datepicker('show');
+           });
+
+           // set start date
+           $('#setstartdate').click(function(){
+               $('#datepicker').datepicker('setStartDate', '-5d');
+           });
+
+           // get start date
+           $('#getstartdate').click(function(){
+               var startDate = $('#datepicker').datepicker('getStartDate');
+               $('#response').text('Start Date : ' + startDate);
+           });
+
+           // set end date
+           $('#setenddate').click(function(){
+               $('#datepicker').datepicker('setEndDate', '+5d');
+           });
+
+           // get end date
+           $('#getenddate').click(function(){
+               var startDate = $('#datepicker').datepicker('getEndDate');
+               $('#response').text('End Date : ' + startDate);
+           });
+        
+        });
+        </script>
+    </body>
+</html>
