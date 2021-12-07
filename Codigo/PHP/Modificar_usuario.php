@@ -22,8 +22,8 @@ if($clave != "" & $nombres !="" & $direccion !="")
 session_start();
 $id = $_SESSION["id"];
     
-/*Aqui selecciona la tabla clientes de las columnas Nombre_completo y email la consulta en este caso es que si el nombre o gmail y 
-lo devuelve de resultado de la consulta sql a la base de datos en count en forma de arrays */
+/*Aqui selecciona la tabla clientes de las columnas Nombre_completo y email la consulta en este caso es que si el nombre o gmail (y guiandose con id) y 
+lo devuelve de resultado de la consulta sql a la base de datos en count en forma de arrays  */
 $sql = "SELECT * FROM clientes WHERE Nombre_completo = '".$nombres."' OR email='".$correo."' AND id <>".$id;
 $resultado = mysqli_query($conexion, $sql);
 $count = mysqli_num_rows($resultado); 
@@ -33,7 +33,8 @@ echo $sql;
 
 
 /*Con esto en caso que salga  igual o mayor que 0 significa que exite el dato y dara error del que el nombre del usuario o gmail es igual y si da igual 
-0 menor que cero singifica que no exite el dato y puede modificar eso dos campos sin nigun error*/
+0 menor que cero singifica que no exite el dato y puede modificar eso dos campos sin nigun error claro para cuando de error y vuelva  
+$_SESSION["usuario"] = $nombres;  */
 if($count <= 0)
     {
         $sql = "UPDATE `clientes` SET 

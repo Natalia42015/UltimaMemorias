@@ -1,6 +1,6 @@
 ﻿16-11-2021 
 
-ULTIMA  ![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.001.png)
+ULTIMA  ![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.001.png)
 
 **Cumplimentación proyecto 1** MEMORIAS
 
@@ -27,11 +27,11 @@ Para hacer el diseño se implementó en papel y la base de datos se pasó a pág
 
 Mapa web 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.003.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.003.png)
 
 Boceto 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.004.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.004.png)
 
 **Apartado Guía de estilos** 
 
@@ -65,21 +65,21 @@ Horas invertidas en total: 245 horas a próximamente de programación e investig
 
 - **Diseño Entidad Relación de la BBDD** 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.005.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.005.png)
 
 - **Modelo relacional BBDD** 
 
-1,n![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.006.png)![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.007.png)
+1,n![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.006.png)![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.007.png)
 
-1,n![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.008.png)
+1,n![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.008.png)
 
-1,1![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.008.png)
+1,1![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.008.png)
 
-n,1![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.009.png)
+n,1![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.009.png)
 
-n,1 1,n ![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.010.png)![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.008.png)
+n,1 1,n ![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.010.png)![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.008.png)
 
-1,n![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.008.png)
+1,n![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.008.png)
 
 - **Script de creación BBDD** 
 
@@ -421,49 +421,49 @@ Explico todo y cada una de las consultas y que hacen en los archivos y se puede 
 
 Funciones php: 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.011.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.011.png)
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.012.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.012.png)
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.013.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.013.png)
 
 Parte1 Eliminar usuario(era muy largo dejo la otra parte debajo) 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.014.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.014.png)
 
 Parte2 Eliminar usuario 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.015.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.015.png)
 
 Primera parte Grabar(es muy largo el código de consulta entonces dejare la segunda consulta debajo) 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.016.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.016.png)
 
 Segunda parte Grabar 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.017.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.017.png)
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.018.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.018.png)
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.019.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.019.png)
 
 Parte1 modificar usuario(es muy grande el código entonces creo la segunda parte debajo en orden) 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.020.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.020.png)
 
 Parte2 de modificar\_usuario 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.021.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.021.png)
 
 Parte1 registrar (es muy grande el código entonces creo la segunda parte debajo en orden) 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.022.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.022.png)
 
 Parte2 registrar 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.023.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.023.png)
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.024.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.024.png)
 
 Paginas\_php: 
 
@@ -471,29 +471,29 @@ Parte1 editar\_usuario (es muy grande el código entonces creo la segunda parte 
 
 orden) 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.025.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.025.png)
 
 Parte2 editar\_usuario 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.026.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.026.png)
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.027.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.027.png)
 
 Parte1 dashboard (es muy grande el código entonces creo la segunda parte debajo en orden) 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.028.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.028.png)
 
 Parte2 dashboard 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.029.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.029.png)
 
 Parte3 dashboard 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.030.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.030.png)
 
 Parte3 dashboard 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.031.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.031.png)
 
 
 **Validación de formularios** 
@@ -512,11 +512,11 @@ Registre nuevo difunto-> Este utiliza el mismo sistema de validación y condicio
 
 **Proceso de carga** 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.032.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.032.png)
 
 **Jerarquía de directorios** 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.033.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.033.png)
 
 **Contenido directorios** 
 
@@ -540,11 +540,11 @@ El encabezado contiene el menú de navegación en la parte derecha y en la parte
 
 
 
-|Container con bootstrap ![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.034.png)|Container con bootstrap![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.035.png)|
+|Container con bootstrap ![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.034.png)|Container con bootstrap![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.035.png)|
 | :- | :- |
 ||
-|Container con bootstrap ![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.036.png)|
-|Pie de página ![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.037.png)|
+|Container con bootstrap ![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.036.png)|
+|Pie de página ![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.037.png)|
 **IMPLEMENTACIÓN** 
 
 **REQUISITO 1: Diseño responsive** 
@@ -683,49 +683,49 @@ Muestro aquí todas las páginas qué hay en mi página web y describiré brevem
 
 Este pertenece al archivo index.html 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.038.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.038.png)
 
 **Página iniciar sesión** 
 
 Este esta en la carpeta html es el archvio login.hmtl entramos cuando le damos inciar sesión 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.039.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.039.png)
 
 **Página de registro** 
 
 La página de registros se accede de dando al registrarse esto está en la carpeta html llamado en un archivo register.HTML 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.040.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.040.png)
 
 **Página de gestión (tablero)** 
 
 La página se hace  mediante iniciando sesión o registrándose esto se encuentra en la carpeta PHP>pagina\_PHP y se llama el archivo dashboard.php aquí podemos dale al menú que está en nuestro nombre podemos registrar un familiar dándole registro nuevo o podemos configurar nuestra cuenta dándole a configuración, tenemos cerrar sesión y podemos darte bajo a nuestra cuenta que eliminará todo lo que tengamos dentro de nuestra cuenta gestionado y a la cuenta misma. A registrar un nuevo difunto podemos enviarle flores,rezos o limpiar que nos saldrá una ventanita modal qué un estilo de bootstrap y le podemos dar el servicio que queremos y pagar y tambien se puede dar editar que eso lo enseñaré en la siguiente página. Y finalizar servicios es para cuando tengamos un servicio pendiente podemos entrar con contraseña para dar por hecho el servicio en realizado 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.041.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.041.png)
 
 **Página de  editar difunto** 
 
 Aquí que este archivo esta en PHP/pagina\_PHP se llama editar\_difunto.php cuando quiero editar un difunto le doy editar difunto veo los datos del difunto y los puedo cambiar y guarda los cambios o encaso que no quiera cambiar los datos vuelo a la pagina dashboard.php 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.042.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.042.png)
 
 **Página de configuración de perfil** 
 
 Aquí se entra desde dando nuestro nombre y configuarión para entra editar un usuario que estemos iniciado para poder cambiar nuestro datos y ver los que pusimos si cambiamos algun datos le damos guardar cambios  y si no queremos cambiar nada le damos volver ala pagina principal es decir a dashboard 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.043.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.043.png)
 
 **Abre una ventana emergente de un servicio**  
 
 Cuando le damos un botón de servicio de flores, limpieza y oraciones nos saldrá esto eligimos que queremos comprar o pagar y luego nos llevara a una página que está en la siguiente imagen de pedios. 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.044.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.044.png)
 
 **Página pedidos** 
 
 Cuando le damos algo de la anterior imagen nos lleva a esta parte para realizar el pago o le podemos dar cancelar o volver a otra vez a dashboard. 
 
-![](Aspose.Words.12a42025-35a0-490c-96c7-00e9f89a6d25.045.png)
+![](Aspose.Words.d70418ad-4ac6-4777-9d15-72e6277f7e1d.045.png)
 
 **Apartado Bibliografía. Las que se hayan usado hasta el momento.** 
 
