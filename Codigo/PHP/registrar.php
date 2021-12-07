@@ -2,8 +2,8 @@
 /*Este archivo actua cuando nosotros estamos en index.html y le damos registrarnos es la pagina llamada register.html que es un formulario que 
 al rellenar y dar el boton enviar se mandara los datos a este archivo php y este se encargara insertar los datos a la base de datos 
 ultimamemorias en la tabla clientes ya que este registar la cuenta del cliente y cuando se regitra le enviara a dashboard.php es la pagina que 
-registra a difuntos
-  */
+registra a difuntos*/
+
 /*Son las variables de los campos de editar_usuario */
 $email = $_POST["email"];
 $usuario = $_POST["username"];
@@ -34,7 +34,7 @@ else
   /*Aqui inserta los datos en la tabla cliente para ello dice donde quiere insertar los datos de cada campo del formulario de register (que 
   rellena el usuario) en cada columna de la base de datos y devuelve el resultado inciando sesion si*/
   $sql = "INSERT INTO `clientes` (`Nombre_completo`, `email`, `telefono`, `clave`, `direccion`, `Nacimiento`, `cp`) VALUES ('".$usuario."','".$email."','".$celu."', '".$contra."','".$direccion."','".$fechanacimiento."','".$cp."')";
-  echo $sql;
+ // echo $sql;
   session_start();
   $resultado = mysqli_query($conexion, $sql);
   $_SESSION["usuario"] = $usuario;
@@ -43,6 +43,16 @@ else
   echo $id;
   $_SESSION["id"] = $id;  
   
- 
+   /* *Si el resultado es mayor que cero entrara en la pagina ya que se creo ese nuevo usuario y entrara en la pagina principal pero si ya exitia y devuelve 
+   uno y uno nos dara error
+   */
+  if($id > 0)
+  {
+      header('location:pagina_PHP/dashboard.php');
+  }
+  else
+  {
+      header('location:../HTML/register.html?error=1');
+  }
 }
 ?>

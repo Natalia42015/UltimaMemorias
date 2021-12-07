@@ -36,7 +36,7 @@ echo $sql;
 /*Con esto si el resultado es menor que cero es que los datos no exiten y podemos escribir ya que la condicion es que si hay un nombre o 
 gmail igual no dejara escribir eso si devuelve el resultado mayor que cero signfica que concide que es igual uno de estos datos y saltara el
 error*/
-if($count < 0)
+if($count <= 0)
     {
         $sql = "UPDATE `clientes` SET 
         `Nombre_completo` = '".$nombres."', `email` = '".$correo."', 
