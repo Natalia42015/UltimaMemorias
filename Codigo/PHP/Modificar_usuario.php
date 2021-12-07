@@ -33,9 +33,8 @@ echo "<br>";
 echo $sql;
 
 
-/*Con esto si el resultado es menor que cero es que los datos no exiten y podemos escribir ya que la condicion es que si hay un nombre o 
-gmail igual no dejara escribir eso si devuelve el resultado mayor que cero signfica que concide que es igual uno de estos datos y saltara el
-error*/
+/*Con esto en caso que salga  igual o mayor que 0 significa que exite el dato y dara error del que el nombre del usuario o gmail es igual y si da igual 
+0 menor que cero singifica que no exite el dato y puede modificar eso dos campos sin nigun error*/
 if($count <= 0)
     {
         $sql = "UPDATE `clientes` SET 
