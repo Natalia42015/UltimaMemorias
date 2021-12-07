@@ -21,11 +21,10 @@ if($clave != "" & $nombres !="" & $direccion !="")
  /*Lo que pide es que tenemos que estar con la sesion inciada */
 session_start();
 $id = $_SESSION["id"];
-$_SESSION["usuario"] = $nombres;
     
 /*Aqui selecciona la tabla clientes de las columnas Nombre_completo y email la consulta en este caso es que si el nombre o gmail y 
 lo devuelve de resultado de la consulta sql a la base de datos en count en forma de arrays */
-$sql = "SELECT * FROM clientes WHERE Nombre_completo = '".$nombres."' OR email='".$correo."'";
+$sql = "SELECT * FROM clientes WHERE Nombre_completo = '".$nombres."' OR email='".$correo."' AND id <>".$id;
 $resultado = mysqli_query($conexion, $sql);
 $count = mysqli_num_rows($resultado); 
 
@@ -42,7 +41,8 @@ if($count <= 0)
         `Nacimiento` = '".$fecha_de_nacimiento."', `Direccion` = '".$direccion."', 
         `CP` = '".$cp."', `Telefono` = '".$telefono."', 
         `clave` = '".$clave."' WHERE `clientes`.`id` = ".$id;
-    
+        $_SESSION["usuario"] = $nombres;
+
         $resultado = mysqli_query($conexion, $sql);
         header('location:pagina_PHP/dashboard.php');
     }
